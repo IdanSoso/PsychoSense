@@ -5,6 +5,7 @@ import com.google.firebase.database.DatabaseReference;
 public class Card {
     private String question;
     private String answer;
+    private String check;
 
     public Card(){
         question = null;
