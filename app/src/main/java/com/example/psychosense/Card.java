@@ -3,7 +3,7 @@ package com.example.psychosense;
 import com.google.firebase.database.DatabaseReference;
 
 public class Card {
-    private String question;
+    private String question2;
     private String answer;
     private String check;
 
