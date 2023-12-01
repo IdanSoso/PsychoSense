@@ -42,7 +42,7 @@ public class CreateNotificationActivity extends AppCompatActivity implements Vie
 
     }
 
-    public void popTimeMaker() {
+    /*public void popTimeMaker() {
         TimePickerDialog.OnTimeSetListener onTimeSetListener = new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker view, int selectedHour, int selectedMinute) {
@@ -60,9 +60,9 @@ public class CreateNotificationActivity extends AppCompatActivity implements Vie
                 createAlarm(CreateNotificationActivity.this, "new");
             }
         };
-    }
+    }*/
 
-        public void createAlarm(Context context, String str) {
+        /*public void createAlarm(Context context, String str) {
         if (str.equals("new")) {
             AlarmManager newAlarm;
             Calendar c = Calendar.getInstance();
@@ -75,5 +75,5 @@ public class CreateNotificationActivity extends AppCompatActivity implements Vie
 
             PandingIntent pandingIntent = PandingIntent.getBroadcast
         }
-        }
+        }*/
     }
